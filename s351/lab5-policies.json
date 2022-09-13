@@ -1,0 +1,21 @@
+{
+	    "Version": "2012-10-17",
+	        "Id": "Policy1662382003951",
+		    "Statement": [
+			            {
+					                "Sid": "Stmt1662381964233",
+							            "Effect": "Allow",
+								                "Principal": {
+											                "AWS": "arn:aws:iam::725302010379:user/sirakorn.lamyai"
+													            },
+														                "Action": [
+																	                "s3:GetObject",
+																			                "s3:ListBucket"
+																					            ],
+																						                "Resource": [
+																									                "arn:aws:s3:::sandbox-pputtapirat-f4alab-s3b1",
+																											                "arn:aws:s3:::sandbox-pputtapirat-f4alab-s3b1/sample-dir/*"
+																													            ]
+																														            }
+																															        ]
+}
